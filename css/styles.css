@@ -16,7 +16,7 @@
 }
 .clickable-info {
   cursor: pointer;
-  color: red;
+  color: blue;
 }
 
 .container {
@@ -34,4 +34,9 @@
 img {
   border-radius: 50%;
   border: 3px dotted darkblue;
+}
+
+.dark-theme {
+  background-color: darkgray;
+  color: white;
 }
