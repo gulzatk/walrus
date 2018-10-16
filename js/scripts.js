@@ -3,4 +3,9 @@ $(document).ready(function(){
     $("#initially-showing").fadeToggle();
     $("#initially-hidden").fadeToggle();
   });
+  $(".clickable-info").click(function()
+  {
+    $("#initially-hidden-info").toggle();
+    $("#initially-showing-info").toggle();
+  })
 });

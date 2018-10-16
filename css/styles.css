@@ -8,3 +8,30 @@
 .clickable:hover {
   text-decoration: underline;
 }
+#initially-showing-info {
+  display: none;
+}
+.clickable-info:hover {
+  text-decoration: underline;
+}
+.clickable-info {
+  cursor: pointer;
+  color: red;
+}
+
+.container {
+  text-align: center;
+}
+
+.header-section {
+  width: 80%;
+}
+
+.about-section {
+  width: 80%;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px dotted darkblue;
+}
