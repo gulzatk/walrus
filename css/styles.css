@@ -40,3 +40,7 @@ img {
   background-color: darkgray;
   color: white;
 }
+.highlights {
+  background-color: yellow;
+  border: 2px solid blue;
+}

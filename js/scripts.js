@@ -16,4 +16,8 @@ $(document).ready(function(){
   $("button#light").click(function(){
     $("body").removeClass();
   });
+  $("p").click(function(){
+    $("p").toggleClass("highlights");
+});
+
 });
